@@ -1,0 +1,15 @@
+{
+    /*
+        compilerOptions 编译器的选项
+    */
+    "compilerOptions": {
+        "ignoreDeprecations": "5.0",
+        //target ES版本
+        "target": "ES2015",
+        //module 模块化规范
+        "module": "ES2015",
+        //strict 严格检查总开关
+        "strict": true,
+        "noEmitOnError": true
+    }
+}

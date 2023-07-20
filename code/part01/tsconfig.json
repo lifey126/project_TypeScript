@@ -1,0 +1,48 @@
+{
+    /*
+        ts编译器的配置文件
+            "include" 指定需要被编译的ts文件
+                路径： ** 任意目录 * 任意文件
+            "exclude" 指定不需要被编译的ts文件
+    */
+    "include": [
+        "../part01/*"
+    ],
+    /*
+        compilerOptions 编译器的选项
+    */
+    "compilerOptions": {
+        "ignoreDeprecations": "5.0",
+        //target ES版本
+        "target": "ES2015",
+        //module 模块化规范
+        "module": "ES2015",
+        //lib 库 
+        //"lib": ["ES5", "DOM"],
+        //outDir 编辑文件存放位置
+        "outDir": "./dist",
+        //outFile 合并
+        //"outFile": "./dist/test.js"
+        //allowJs 是否对js文件编译
+        "allowJs": true,
+        //checkJs 是否对js文件进行检查
+        "checkJs": true,
+        //removeComments 是否移除注释
+        "removeComments": true,
+        //noEmit 不对代码进行编译
+        "noEmit": false,
+        //noEmitOnError 有错误的情况下不进行编译
+        "noEmitOnError": true,
+
+        //strict 严格检查总开关
+        "strict": true,
+        //alwaysStrict 以严格模式对代码进行编译
+        "alwaysStrict": true,
+        //noImplicitAny 禁止隐式的any类型
+        "noImplicitAny": true,
+        //noImplicitThis 禁止类型不明确的this
+        "noImplicitThis": true,
+        //strictNullChecks 严格的空值检查
+        "strictNullChecks": true
+    }
+}

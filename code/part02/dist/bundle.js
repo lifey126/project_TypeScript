@@ -1,0 +1,1 @@
+!function(){"use strict";var o={name:"孙悟空",age:15};console.log(o),o.age=18,console.log(o),console.log(468),console.log("hi"),console.log("hello")}();
